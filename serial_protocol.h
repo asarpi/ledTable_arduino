@@ -184,7 +184,7 @@ public:
 	void init() {
 		Serial.begin(9600);
 		delay(100);
-		Serial.println(" ##### Good morning sir! #####");
+		Serial.println("##### Good morning sir! #####");
 	}
 	/*
 	* method for sending strings. NOT RECOMMENDED FOR USING, ONLY DEBUGGING. ANYBODY EAT THIS ON OTHER SIDE !!

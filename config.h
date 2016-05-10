@@ -5,10 +5,10 @@
 
 
 //LED constants
-#define PWM_MAX_VALUE 255
-#define PWM_MIN_VALUE 0
-#define LIGHT_MAX_VALUE 255
-#define LIGHT_MIN_VALUE 0
+#define PWM_MAX_VALUE 255	//maximum PWM value 
+#define PWM_MIN_VALUE 0		// minimum PWM value
+#define LIGHT_MAX_VALUE 255 //maximum allowed light value (sometimes we can set an other value, if we want to control the algortihm with 0-100 interval (percent) )
+#define LIGHT_MIN_VALUE 0	//minimum allowed light value
 
 /*
 Note: R and G pin depends on wiring or type of LED strip
