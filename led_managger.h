@@ -9,7 +9,7 @@
 #include "serial_protocol.h"
 
 
-#define DEBUG 1
+#define DEBUG 0
 #define DEBUG_SET_RGB 0
 #define PI 3.1416
 #define LN2 log(2)
